@@ -1,0 +1,13 @@
+/* mat-accordion {
+  margin-top: 10px;
+} */
+mat-spinner {
+  margin: auto;
+}
+.post-image {
+  width: 100%;
+}
+.post-image img {
+  height: 20rem;
+  width: 100%;
+}
