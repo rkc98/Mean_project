@@ -6,10 +6,10 @@ const usersroutes = require("./Routes/users");
 const path = require("path");
 
 const mongoose = require("mongoose");
-// mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
-// mongodb+srv://root:root@cluster0.cnrex.mongodb.net/Testing?retryWrites=true&w=majority
+
+//in connect("enter mongodb local or remote address")
 mongoose
-  .connect("mongodb+srv://root:root@cluster0.cnrex.mongodb.net/Testing?retryWrites=true&w=majority")
+  .connect("")
   .then(() => {
     console.log("connected to mongo db");
   })
